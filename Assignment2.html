@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <fieldset>
+    <legend><h1><B>Course Registration Form</B></h1></legend>
+    <form action="Ass2formredirect.html">
+
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+        First Name: <input type="text" placeholder="First Name" required>
+        Last Name:<input type="text" placeholder="Last Name"> <br>
+        </fieldset>
+        
+        <fieldset>
+            <legend><strong>Contact Information</strong></legend>
+        Email: <input type="email" placeholder="xyz@gmail.com" required><br>
+        Password: <input type="password" placeholder="**********"> Note: mix of number, alphabets & special characters <br>
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Gender</b></legend>
+        <input type="radio" name="Gender" value="male">Male
+        <input type="radio" name="Gender" value="female">Female
+        <input type="radio" name="Gender" value="other">Other <br>
+        </fieldset>
+
+        <fieldset>
+            <legend><B>Sports</B></legend>
+
+        <label>
+            Sports Preferance: <input type="checkbox" name="Hobby" value="indoor">Indoor
+        </label>
+
+        <label>
+            <input type="checkbox" name="Hobby" value="outdoor">Outdoor
+        </label>   <br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Course Selection</b></legend>
+        <select name="Course" required>
+  <option value="bca">BCA</option>
+  <option value="btech">Btech</option>
+  <option value="mca">MCA</option>
+  <option value="mtech">Mtech</option>
+</select>
+
+</fieldset>
+
+<input type="submit" value="submit form">
+    </form>
+    </fieldset>
+</body>
+</html>
