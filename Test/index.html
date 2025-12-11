@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    height: 100vh;
+    border-radius: 1rem;
+    background: linear-gradient(120deg, blue 100%, greenyellow 100%, brown 100%);
+    
+}
+
+        .forum{
+            
+            background-color: beige;
+            padding: 2rem;
+            border-radius: 2rem;
+            width: 25vw;
+           
+ }
+
+        h1{
+            text-align: center;
+        }
+
+        .login{
+            text-align: center;
+            background-color: blue;
+        }
+
+        input{
+            border-radius: 0.5rem;
+            height: 3vh;
+            width: 100%;
+            background-color: beige;
+        
+        }
+
+        .login{
+            text-align: center;
+            width: 100%;
+            border-radius: 0.5rem;
+            height: 4vh;
+            font-weight: bolder;
+            background-color: greenyellow;
+            
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        a:hover{
+            color:brown;
+        }
+
+        .register{
+            text-align: center;
+        }
+
+    
+
+        
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+       <div class="forum">
+
+            <form action="">
+                <h1>Register</h1>
+
+                <label for="username">Username</label><br>
+                <input type="text" placeholder="Enter your username" required><br><br>
+                <label for="Password">Password</label><br>
+                <input type="password" placeholder="Enter your password" required><br><br>
+
+                <input type="button" class="login">Login><br><br>
+
+                <div class="register">
+                <span>Don't have an account?</span> <a href="">Register</a>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+</body>
+</html>
